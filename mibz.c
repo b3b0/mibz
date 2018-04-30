@@ -12,10 +12,8 @@ int main()
         printf("\e[1;1H\e[2J");
         int playerlife = 50;
         int enemylife = 30;
-        int playerexp = 0;
-        int newexp = 0;
         printf("Proceeding to next battle!\n");
-        sleep(1);
+        sleep(2);
         while (playerlife > 0 && enemylife > 0)
         {
             printf("\e[1;1H\e[2J");
